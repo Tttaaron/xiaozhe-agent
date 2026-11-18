@@ -1,0 +1,26 @@
+# 密钥与本地环境配置（含真实 API Key，禁止上传）
+.env
+course.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# 日志与临时文件
+*.log
+.DS_Store
+Thumbs.db
+
+# Maven 依赖缓存包（体积大，非源码）
+ecommerce-backend/docker/m2-cache.tar.gz
